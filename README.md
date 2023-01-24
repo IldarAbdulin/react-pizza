@@ -1,3 +1,4 @@
-> [✅] создать базу данных с пиццами
-> [✅] axios
-> [✅] PropTypes
+> [✅] redux
+> [✅] react-redux
+> [✅] store
+> [✅] useSelector, useDispatch
