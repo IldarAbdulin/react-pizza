@@ -41,7 +41,7 @@ export const Home = () => {
     dispatch(fetchPizzas(sortBy, category));
   }, [category, sortBy]);
   return (
-    <>
+    <div className="container">
       <div className="content__top">
         <Categories
           activeCategory={category}
@@ -62,6 +62,6 @@ export const Home = () => {
               .fill(0)
               .map((_, index) => <PizzaLoadingBlock key={index} />)}
       </div>
-    </>
+    </div>
   );
 };
